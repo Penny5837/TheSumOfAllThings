@@ -1,0 +1,1 @@
+This script will automatically update all the applications on your computer with one button press, it uses the winget function. Run this batch file with admin perms to one click update everything on your windows system :D
