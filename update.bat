@@ -10,7 +10,7 @@ rem if it doesnt work, you have to press yes everytime an app updates
 echo The apps may require you to press Yes as admin to update
 pause
 rem this next command starts powershell and uses the base windows system to update all the apps
-start powershell winget update -h --all
+start powershell winget update -h --all  --accept-package-agreements --accept-source-agreements
 Echo Update process open and running
 Echo This window will now be able to be closed
 pause
